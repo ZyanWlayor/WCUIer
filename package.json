@@ -6,10 +6,17 @@
   "module": "index.js",
   "type": "module",
   "scripts": {
-    "start":"node index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": "bin/wcuier.js",
   "keywords": [],
   "author": "ZyanWlayor",
-  "license": "ISC"
+  "license": "ISC",
+  "engines": {
+    "node": ">=16.7.0"
+  },
+  "dependencies": {
+    "yargs": "^17.5.1"
+  }
 }
